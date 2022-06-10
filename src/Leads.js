@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Nav";
+import Table from "./Table";
 
 import "./Leads.css";
 function Leads() {
@@ -22,7 +23,10 @@ function Leads() {
         <div className="col600">
           <div className="field">
             <label for="name">Leads</label>
-            <input type="text" name="name" id="name" className="name-input" />
+            {/* <input type="text" name="name" id="name" className="name-input" />
+             */}
+
+            <Table />
           </div>
           <div className="image">
             <img src="../public/assets/g10.png" alt="" srcset="" />
